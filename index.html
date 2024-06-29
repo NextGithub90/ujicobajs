@@ -14,8 +14,8 @@
     <div class="container">
         <div class="row my-3 ">
             <div class="col-1 my-1 ">
-                <div class="icon  mt-1" style="margin-left: 28px;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                <div class="icon  mt-1" style="margin-left: 1px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                         class="bi bi-camera-reels-fill" viewBox="0 0 16 16">
                         <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
                         <path d="M9 6a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
@@ -25,9 +25,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="judul">
-                    <h1
-                        style="text-transform: uppercase; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;">
+                <div class="judul" style="margin-left:-40px ;">
+                    <h1 style="font-family:'Courier New', Courier, monospace;" class="me-4">
                         cinema pro
                     </h1>
                 </div>
@@ -35,11 +34,18 @@
         </div>
         <!-- input button -->
         <div class="row">
-            <div class="col-7 ms-4">
-                <div class="input-group ">
-                    <input type="text" class="form-control search-button" placeholder="Search movies..."
+            <div class="col-7 " style="margin-left: 1px;">
+                <div class=" input-group ">
+                    <input type=" text" class="form-control search-button" placeholder="Search movies..."
                         aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-outline-primary button" type="button" id="button-addon2">Button</button>
+                    <button class="btn btn-outline-primary button" type="button" id="button-addon2"
+                        style="font-family: 'Courier New', Courier, monospace;">Button</button>
+                </div>
+            </div>
+            <!-- loadung spinner -->
+            <div class="col loading">
+                <div class="spinner-border text-primary d-none loading-spinner" role="status">
+                    <span class="visually-hidden">Loading...</span>
                 </div>
             </div>
         </div>
@@ -58,7 +64,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        ...
+
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
